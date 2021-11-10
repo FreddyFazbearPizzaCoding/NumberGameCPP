@@ -12,7 +12,7 @@ void function(int tahmin,int random){
 	if(random==tahmin){
     	cout<<green<<"[+]Harika,bildin !"<<endl;
 	}else if(random!=tahmin && tahmin<11 && tahmin>-1){
-		cout<<red<<"[-]Bilemedin sayı "<<green<<random<<endl;
+		cout<<red<<"[-]Bilemedin sayÄ± "<<green<<random<<endl;
 	}
 }
 int main ()
@@ -26,28 +26,28 @@ int main ()
     int tahmin,random;
     cout<<yellow<<"               Freddy_Fazbear_Pizza_Coding"<<endl;
     Sleep(1500);
-    cout<<green<<"[+]Adın nedir?(LÜTFEN ADINIZDA BOŞLUK KULLANMAYINIZ !) :"<<white;
+    cout<<green<<"[+]AdÄ±n nedir?(LÃœTFEN ADINIZDA BOÅLUK KULLANMAYINIZ !) :"<<white;
     cin>>ad;
     system("cls");
     Sleep(1200);
     cout<<green<<"[+]Merhaba "<<ad<<endl;
     Sleep(1000);
     random=rand()%10;
-    cout<<green<<"[+]1 ile 10 arası rastgele Sayı tuttum"<<endl;
+    cout<<green<<"[+]1 ile 10 arasÄ± rastgele SayÄ± tuttum"<<endl;
     Sleep(1500);
     system("cls");
-    cout<<green<<"[+]Sence hangi sayıyı tuttum :"<<white;
+    cout<<green<<"[+]Sence hangi sayÄ±yÄ± tuttum :"<<white;
     cin>>tahmin;
     system("cls");
     
     if(random==tahmin){
     	cout<<green<<"[+]Harika,bildin !"<<endl;
 	}else if(random!=tahmin && tahmin<11 && tahmin>-1){
-		cout<<red<<"[-]Bilemedin sayı "<<green<<random<<endl;
+		cout<<red<<"[-]Bilemedin sayÄ± "<<green<<random<<endl;
 	}
 	
 	while(tahmin<0 || tahmin>10){
-		cout<<yellow<<"[-]Hop! Yavaş dostum abartma başka birşeyler dene"<<endl;
+		cout<<yellow<<"[-]Hop! YavaÅŸ dostum abartma baÅŸka birÅŸeyler dene..."<<endl;
 		cout<<yellow<<":: ";
 		cin>>tahmin;
 		system("cls");
